@@ -1,0 +1,20 @@
+Using Prettier
+    npx prettier --write .
+    npx prettier --write src/App.js
+
+Installing/Using fnm
+
+    INSTALLATION
+        winget install Schniz.fnm
+        fnm env --use-on-cd --shell powershell | Out-String | Invoke-Expression
+        fnm install --lts
+        fnm use --lts
+
+    USE
+        fnm env --use-on-cd --shell powershell | Out-String | Invoke-Expression
+        node -v
+        npm -v
+        
+Using ESLint
+    npm run lint
+    npm run lint -- --fix

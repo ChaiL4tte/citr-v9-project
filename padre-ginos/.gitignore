@@ -1,0 +1,5 @@
+node_modudles/
+dist/
+.env
+coverage/
+.vscode/
